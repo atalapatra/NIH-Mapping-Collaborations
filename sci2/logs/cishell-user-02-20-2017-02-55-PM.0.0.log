@@ -1,0 +1,79 @@
+Feb 20, 2017 2:55:21 PM org.cishell.reference.gui.log.LogToFile logged
+INFO: Welcome to the Science of Science Tool (Sci2).
+
+The development of this tool is supported in part by the Cyberinfrastructure for Network Science center and the Department of Information and Library Science in the School of Informatics and Computing at Indiana University, the National Science Foundation under Grant No. SBE-0738111 and IIS-0715303, and the James S. McDonnell Foundation. See the Science of Science Cyberinfrastructure portal (http://sci2.cns.iu.edu) for documentation, screenshots, and to ask an expert. 
+
+The primary investigators are Katy Börner, Indiana University and Kevin W. Boyack, SciTech Strategies Inc. The Sci2 tool was developed by Daniel Halsey, Adam Simpson, Saumya Pandey, Sumit Samant, Vivek Karihaloo, Chin Hua Kong, Steven Corenflos, Joseph Biberstine, Thomas G. Smith, David M. Coe, Micah W. Linnemeier, Patrick A. Phillips, Chintan Tank, and Russell J. Duhon. It uses the Cyberinfrastructure Shell (http://cishell.org) developed at the Cyberinfrastructure for Network Science Center (http://cns.iu.edu) at Indiana University. Many algorithm plugins were derived from the Network Workbench Tool (http://nwb.cns.iu.edu).
+
+Please cite as follows:
+Sci2 Team. (2009). Science of Science (Sci2) Tool. Indiana University and SciTech Strategies, [url]https://sci2.cns.iu.edu[/url].
+
+
+Feb 20, 2017 2:57:46 PM org.cishell.reference.gui.log.LogToFile logged
+INFO: ..........
+Load... was selected.
+Documentation: [url]http://wiki.cns.iu.edu/display/CISHELL/Data+Formats[/url]
+
+
+Feb 20, 2017 2:58:07 PM org.cishell.reference.gui.log.LogToFile logged
+INFO: ..........
+Load... was selected.
+Documentation: [url]http://wiki.cns.iu.edu/display/CISHELL/Data+Formats[/url]
+
+
+Feb 20, 2017 2:58:58 PM org.cishell.reference.gui.log.LogToFile logged
+INFO: Loaded: C:\Users\Amit\OneDrive\1 - GWU MSBA\DNSC 6217 BA Practicum\My Folder\2017-02-12 Data from Andrew\Data\Limited Publications Dataset - ExPORTER.CSV
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+INFO: ..........
+Extract Co-Author Network was selected.
+Implementer(s): Timothy Kelley
+Integrator(s): Timothy Kelley
+Documentation: [url]http://wiki.cns.iu.edu/display/CISHELL/Extract+Co-Author+Network+%28Text+Files%29[/url]
+
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Starting to parse bundleentry://23.fwk59559151/OSGI-INF/metatype/METADATA.XML
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is AbstractHandler:startElement():metatype:MetaData
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is MetaDataHandler():init()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is MetaDataHandler:startElement():OCD
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is OcdHandler():init()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is OcdHandler:startElement():AD
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is AttributeDefinitionHandler():init()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is AttributeDefinitionHandler():finished()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is OcdHandler():finished()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is MetaDataHandler:startElement():Designate
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is DesignateHandler():init()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is DesignateHandler:startElement():Object
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is ObjectHandler():init()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is DesignateHandler():finished()
+
+Feb 20, 2017 2:59:14 PM org.cishell.reference.gui.log.LogToFile logged
+FINEST: Here is MetaDataHandler():finished()
+

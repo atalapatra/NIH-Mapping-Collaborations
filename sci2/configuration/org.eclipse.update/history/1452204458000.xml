@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1452204458486">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="edu.iu.nwb.library.feature" url="features/edu.iu.nwb.library.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="edu.iu.sci2.gui.brand.feature" url="features/edu.iu.sci2.gui.brand.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="edu.iu.sci2.converter.feature" url="features/edu.iu.sci2.converter.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.cishell.environment.equinox.feature" url="features/org.cishell.environment.equinox.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.cishell.reference.gui.feature" url="features/org.cishell.reference.gui.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.cishell.reference.libs.feature" url="features/org.cishell.reference.libs.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="edu.iu.sci2.javaalgorithms.feature" url="features/edu.iu.sci2.javaalgorithms.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="edu.iu.sci2.library.feature" url="features/edu.iu.sci2.library.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.cishell.reference.feature" url="features/org.cishell.reference.feature_1.0.0/" version="1.0.0">
+		</feature>
+		<feature id="org.cishell.feature" url="features/org.cishell.feature_1.0.0/" version="1.0.0">
+		</feature>
+	</site>
+</config>
