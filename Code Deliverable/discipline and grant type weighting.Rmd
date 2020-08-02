@@ -1,0 +1,294 @@
+---
+title: "Adding Discipline and Assigning Node Attributes"
+output: html_document
+---
+This codefile handles assigning discipline and activity code to nodes, as well as applying weights to collaborations to account for distributional differences.
+
+Install and load the following packages:
+```{r, results = 'hide'}
+require(magrittr)
+require(dplyr)
+require(stringr)
+```
+
+Necessary functions:
+```{r, echo=FALSE}
+bind_rows <- function(filelist){
+  path <- "C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Discipline iPython/API data/"
+  master.table <- data.frame()
+  for (i in 1:length(filelist)){
+    filename <- paste0(path, filelist[i])
+    file.i <- read.csv(filename, header = FALSE, stringsAsFactors = FALSE) 
+    colnames(file.i) <- c("PMID", "DISCIPLINE_LIST") 
+    master.table <- rbind(master.table, file.i)
+  } 
+  master.table
+}
+
+bind_rows_error <- function(filelist){
+  path <- "C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Discipline iPython/API data/"
+  master.table <- data.frame()
+  for (i in 1:length(filelist)){
+    filename <- paste0(path, filelist[i])
+    error.i <- read.csv(filename, header = FALSE, stringsAsFactors = FALSE)
+    colnames(error.i) <- c("PMID", "error")
+    error.i <- error.i %>% filter(trimws(error) != "{'service-error': {'status': {'statusCode': 'RESOURCE_NOT_FOUND', 'statusText': 'The resource specified cannot be found.'}}}") %>%
+              filter(trimws(error) != "{'abstracts-retrieval-response': {'subject-areas': None, 'coredata': None}}") %>%
+              filter(trimws(error) != "{'service-error': {'status': {'statusText': 'The resource specified cannot be found.', 'statusCode': 'RESOURCE_NOT_FOUND'}}}") %>%
+              filter(trimws(error) != "{'abstracts-retrieval-response': {'coredata': None, 'subject-areas': None}}")
+    master.table <- rbind(master.table, error.i)
+  }
+  master.table
+}
+
+create_lookup <- function(lookup_table, original_table, match.variable){
+  lookup_table <- original_table %>% filter(is.na(DISCIPLINE_LIST)==FALSE) %>% 
+    mutate(clean_journal = ifelse(str_sub(trimws(toupper(JOURNAL_TITLE)), -1,-1)==".",
+                                  str_sub(trimws(toupper(JOURNAL_TITLE)), 1,-2), 
+                                  trimws(toupper(JOURNAL_TITLE)))) %>% 
+    group_by(clean_journal, DISCIPLINE_LIST) %>% summarise(n = n()) %>% arrange(clean_journal,desc(n)) 
+  lookup_table <- aggregate(lookup_table, list(lookup_table$clean_journal), FUN=head, 1) 
+  
+  lookup_table
+}
+```
+
+**Gather Pulled Data**
+
+This gathers all of the files in the data folder that have the prefix "pmid_discipline" and separates the error files and lookup files. When API search errors, PMID was sent to error file.
+```{r}
+files <- list.files(path = "C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Discipline iPython/API data",
+                    pattern = "pmid_discipline")
+complete.files <- files[c(1:7,19:21)]
+error.files <- files[8:18]
+```
+
+Bind rows of all files for complete PMID lookup, every PMID that errored out, and a file which has useful errors which could be parsed to select discipline.
+```{r}
+combined.file <- bind_rows(complete.files) %>% distinct() 
+complete.error.file <- bind_rows(error.files) %>% distinct()
+useful.error.file <- bind_rows_error(error.files) %>% distinct()
+```
+
+Read in NIH/NIGMS original datafile and separate PMIDs into ones that have been matched to a discipline, and those that have errored out.
+```{r}
+comp_all <- read.csv("C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Wei/data/comp/comp_author_pub.csv",stringsAsFactors = FALSE)
+study_all <- read.csv("C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Wei/data/study/study_author_pub.csv",stringsAsFactors = FALSE)
+all_publications <- rbind(comp_all, study_all) %>% distinct(PMID, JOURNAL_TITLE) %>% left_join(combined.file, by=c("PMID" = "PMID")) 
+still_null <- all_publications %>% inner_join(complete.error.file, by=c("PMID" = "PMID"))   
+complete_publications <- all_publications %>% anti_join(complete.error.file, by=c("PMID" = "PMID")) 
+```
+
+
+**Create Discipline Lookup Table To Fill Nulls**
+
+Create lookup table based on the most frequent discipline for the journal in existing dataset, and join the dataset with the missing discipline information with the new lookup table.
+```{r}
+journal_lookup <- create_lookup(journal_lookup, complete_publications)
+still_null_lookup <- still_null %>% select(PMID, JOURNAL_TITLE)%>%
+                                mutate(clean_journal = ifelse(str_sub(trimws(toupper(JOURNAL_TITLE)),
+                                                                      -1,-1)==".",
+                                                            str_sub(trimws(toupper(JOURNAL_TITLE)), 
+                                                                       1,-2), 
+                                                            trimws(toupper(JOURNAL_TITLE))))%>% 
+                                left_join(select(journal_lookup, c(clean_journal, DISCIPLINE_LIST)),
+                                          by=c("clean_journal"="clean_journal")) %>%
+                                select(PMID, "final_discipline" =DISCIPLINE_LIST) 
+```
+
+Fill null with "NULL" 1615 missing values.
+```{r}
+all_publications_disc <- complete_publications %>% 
+                         select(PMID,"final_discipline" = DISCIPLINE_LIST) %>% 
+                         union(still_null_lookup) %>%
+                         mutate(final_discipline = ifelse(is.na(final_discipline)==TRUE, 
+                             "NULL",final_discipline))
+```
+
+Make a long table which separates out discipline and creates a new row for each.
+```{r, results='hide'}
+table <- all_publications_disc
+  pmid.has.discipline <- table %>% select(PMID, final_discipline)
+  pmid.has.discipline.long <- data.frame()
+  m <- 1
+  for (i in 1:nrow(pmid.has.discipline)){ 
+    strlist <- pmid.has.discipline[i,2]
+    strlist <- gsub("[[:punct:]]","",strlist)
+    list <- as.vector(unlist(strsplit(strlist," ")))
+    pmid.has.discipline.pmid <- c()
+    pmid.has.discipline.disc <- c()
+    for (j in 1:length(list)){
+      pmid.has.discipline.long[m,1] <- pmid.has.discipline[i,1]
+      pmid.has.discipline.long[m,2] <- list[j]
+      m <- m + 1
+    }
+  }
+  colnames(pmid.has.discipline.long) <- c("PMID", "discipline")
+  binary.discipline <- model.matrix(PMID~ discipline -1 ,pmid.has.discipline.long)
+```
+
+Summarize by publication.
+```{r}
+summarized.df <- cbind.data.frame(PMID = pmid.has.discipline.long$PMID, binary.discipline) %>% 
+    group_by(PMID) %>% summarise_each_(funs(sum), dput(colnames(binary.discipline)))
+summarized.mtx <- as.matrix(summarized.df[,2:ncol(summarized.df)])
+```
+
+Create weighting mechanism based on distribution of publications.
+```{r}
+counts <- as.vector(colSums(summarized.mtx))
+  namer <- colnames(summarized.mtx)
+  lookup.table <- cbind.data.frame("subject" = namer, "count" = counts)
+  lookup.table$dist <- lookup.table$count/(sum(lookup.table$count))
+  lookup.table$weight <- 1/lookup.table$dist
+  lookup.table$subject <- as.character(substr(lookup.table$subject,11,14)) 
+  lookup.table <- lookup.table %>% mutate( subject.group = 
+                                             ifelse((subject == "CENG" | subject == "NEUR" | 
+                                                     subject == "PHAR" | subject == "AGRI" |
+                                                     subject == "MULT" | subject == "IMMU" |
+                                                     subject == "CHEM" | subject == "MEDI" |
+                                                     subject == "BIOC"), subject, "OTHER") )
+  summarized.lookup <- lookup.table %>% group_by(subject.group) %>% summarise('count'=sum(count))
+  summarized.lookup$dist.grouped <- summarized.lookup$count/(sum(summarized.lookup$count))
+  summarized.lookup$weight.grouped <- 1/summarized.lookup$dist         
+  
+  lookup.table <- lookup.table %>% left_join(summarized.lookup, by=c("subject.group"="subject.group"))
+  weight.vector <- as.vector(lookup.table$weight.grouped)
+```
+
+Apply weights to existing data. Save matrices created as csv files.
+```{r}
+master.weighted <- as.matrix(summarized.mtx %*% diag(weight.vector))
+  for (i in 1:length(namer)){
+    namer[i] <- substr(namer[i],11,14)
+  }
+  colnames(master.weighted) <- namer
+  weighted.sum <- rowSums(master.weighted)
+  raw.sum <- rowSums(summarized.mtx)
+  master.weighted <- cbind("PMID" = summarized.df$PMID, master.weighted, 
+                           "weighted_sum" = weighted.sum, "raw_sum" = raw.sum)
+  master.weighted <- data.frame(master.weighted) 
+  for (i in 1:ncol(master.weighted)){ 
+    master.weighted[,i] <- unlist(master.weighted[,i])
+  }
+  master.weighted <- master.weighted %>% mutate("average_weight" = weighted_sum/raw_sum)
+  #write.csv(master.weighted, "master_weighted_discipline2.csv")
+  #write.csv(lookup.table, "lookup_table_discipline.csv")
+  #write.csv(master.weighted, "master_weighted_check.csv")
+```
+
+  
+Go through a similar process for activity code.
+```{r}
+  pmid.activity <- all_publications %>% select(PMID, ACTIVITY) %>% distinct()
+  binary.activity <- model.matrix(PMID~ ACTIVITY -1 , pmid.activity)
+  print("column names:")
+  summarized.df.act <- cbind.data.frame(PMID = pmid.activity$PMID, binary.activity) %>% 
+    group_by(PMID) %>% summarise_each_(funs(sum), dput(colnames(binary.activity)))
+  
+  summarized.mtx.act <- as.matrix(summarized.df.act[,2:ncol(summarized.df.act)])
+  
+  counts.act <- as.vector(colSums(summarized.mtx.act))
+  namer.act <- colnames(summarized.mtx.act)
+  lookup.table.act <- cbind.data.frame("activity_code" = namer.act, "count" = counts.act)
+  lookup.table.act$dist <- lookup.table.act$count/(sum(lookup.table.act$count))
+  lookup.table.act$weight <- 1/lookup.table.act$dist
+  lookup.table.act$activity_code <- as.character(lookup.table.act$activity_code)
+  lookup.table.act <- lookup.table.act %>% mutate( activity.grouped =    
+      ifelse((activity_code == "ACTIVITYP01" | activity_code == "ACTIVITYR01" | 
+              activity_code ==   "ACTIVITYP30" | activity_code == "ACTIVITYP41" |
+              activity_code == "ACTIVITYU54" | activity_code == "ACTIVITYU01" | 
+              activity_code == "ACTIVITYP50"| activity_code == "ACTIVITYR37"),
+              activity_code, "OTHER")) 
+  sum.lookup.act <- lookup.table.act %>% select(activity.grouped, count) %>%
+    group_by(activity.grouped) %>% summarise('count'=sum(count))
+  sum.lookup.act$dist.grouped <- sum.lookup.act$count/(sum(sum.lookup.act$count))
+  sum.lookup.act$weight.grouped <- 1/sum.lookup.act$dist.grouped 
+  lookup.table.act <- lookup.table.act %>% left_join(sum.lookup.act, by=c("activity.grouped"="activity.grouped")) %>%
+    mutate(activity_code = substr(activity_code,9,nchar(activity_code)))
+```
+
+
+**Assign Discipline and Activity to Node**
+
+Load Necessary Files.
+```{r}
+master.edges <- read.csv('C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Wei/data/study_comp_combined/study_comp_edges.csv',stringsAsFactors = FALSE)
+master.nodes <- read.csv('C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Wei/data/study_comp_combined/study_comp_nodes_gephi.csv',stringsAsFactors = FALSE)
+#master.weighted <- read.csv('C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Discipline iPython/master_weighted_discipline.csv',stringsAsFactors = FALSE)
+#master.weighted <- master.weighted %>% select(-X)
+```
+
+
+Add discipline weight and activity weight and publication discipline classification to edge dataset.
+```{r}
+impt.names.disc <- colnames(master.weighted)[3:(ncol(master.weighted)-3)]  
+maxcolumn <- impt.names.disc[max.col(master.weighted[,3:(ncol(master.weighted)-3)], ties.method = "first")]  
+master.weighted$discipline_classification <- maxcolumn   
+master.edges <- master.edges %>% left_join(select(master.weighted, c(PMID, "avg_discpline_weight" = average_weight, discipline_classification)), by=c("PMID_x"="PMID")) %>% 
+  left_join(select(lookup.table.act, c(activity_code, "activity_weight" = weight.grouped)), by=c("ACTIVITY"="activity_code"))
+master.edges$normalized_discipline_weight = master.edges$avg_discpline_weight/max(master.edges$avg_discpline_weight)
+master.edges$normalized_activity_weight = master.edges$activity_weight/max(master.edges$activity_weight)
+
+#write.csv(master.edges, "C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Wei/data/node #classification/study_comp_edges_disc.csv")
+```
+
+Assign discipline to researcher.
+```{r}
+link <- all_publications %>% select(full_name, pi_key, PMID) %>% distinct()
+discipline_researcher <- link %>% left_join(master.weighted, by=(c("PMID"="PMID")))  #
+discipline_researcher <- discipline_researcher %>% select(-PMID) %>% group_by(pi_key) %>% summarise_each_(funs(sum), c( "BIOC", "MEDI","IMMU", "CHEM","PHAR", "MATE","MULT","NEUR",
+                              "PHYS", "CENG","ENGI","AGRI", "COMP","NULL.","NURS","ENVI",
+                              "MATH","PSYC","HEAL", "DENT","SOCI","ARTS","VETE","DECI",                 
+                              "ENER","EART"))  
+impt.names.disc <- colnames(discipline_researcher)[2:27]  
+maxcolumn <- impt.names.disc[max.col(discipline_researcher[,2:27], ties.method = "first")]  
+discipline_researcher$discipline_classification <- maxcolumn    
+discipline_researcher <- discipline_researcher %>% mutate(discipline.group = ifelse((discipline_classification == "CENG" | discipline_classification == "NEUR" | 
+        discipline_classification == "PHAR" | discipline_classification == "AGRI" |
+        discipline_classification == "MULT" | discipline_classification == "IMMU" |
+        discipline_classification == "CHEM" | discipline_classification == "MEDI" |
+        discipline_classification == "BIOC"), discipline_classification, "OTHER") ) 
+discipline_researcher_final <- discipline_researcher %>% left_join(master.nodes, by=c("pi_key"="pi_key")) 
+```
+
+
+Format and group attributes.
+```{r}
+unique_activities <- read.csv("C:/Users/Marissa/OneDrive/Group Folder/2017-03-31 Network Analysis/Discipline iPython/UniqueActivities.csv", stringsAsFactors = FALSE)  
+discipline_researcher_final <- discipline_researcher_final %>% left_join(unique_activities, by = c("pi_key"= "pi_key")) %>%
+  mutate(unique_activity_grouped = ifelse((unique_activities == 1 | unique_activities == 2), "1 to 2", 
+                              ifelse((unique_activities == 3 | unique_activities == 4), "3 to 4", "5+")),
+         unique_activity_sep_5plus = ifelse(unique_activities == 1, "1",
+                                    ifelse(unique_activities == 2, "2",
+                                    ifelse(unique_activities == 3, "3",
+                                    ifelse(unique_activities == 4, "4", "5+"))))) 
+
+discipline_researcher_final <- discipline_researcher_final[,c(1,28:35)]
+
+## add count of projects
+project_count <- all_publications %>% select(pi_key,project_key) %>% distinct() %>% group_by(pi_key) %>% summarise(project_count = n())  
+discipline_researcher_final <- discipline_researcher_final %>% left_join(project_count,by=c("pi_key"="pi_key")) %>% 
+  mutate(project_sep_8plus = ifelse(project_count == 1, "1",  
+                             ifelse(project_count == 2, "2",
+                             ifelse(project_count == 3, "3",
+                             ifelse(project_count == 4, "4",
+                             ifelse(project_count == 5, "5",
+                             ifelse(project_count == 6, "6",
+                             ifelse(project_count == 7, "7",       
+                              "8+"))))))),
+         activity_per_project = unique_activities/project_count,
+         Act_per_proj_quant = cut(activity_per_project, breaks=quantile(activity_per_project, 
+                                                                        seq(0,1,length.out = 6)),
+                                  include.lowest =TRUE, labels=1:5),
+         Act_per_proj_4grp = cut(activity_per_project, breaks=quantile(activity_per_project, 
+                                                                        seq(0,1,length.out = 5)),
+                                  include.lowest =TRUE, labels=1:4),
+         activity_grouped = ifelse((ACTIVITY =='R01'| ACTIVITY =='P01'| ACTIVITY =='P41'), 
+                                   as.character(ACTIVITY),gsub('[[:digit:]]+','',ACTIVITY))) 
+#write.csv(discipline_researcher_final, "nodes_added_grouped_attributes.csv")
+```
+
+
+
+

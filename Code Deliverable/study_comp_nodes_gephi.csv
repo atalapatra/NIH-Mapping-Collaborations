@@ -1,0 +1,899 @@
+Id,Group,pi_key,ACTIVITY
+"Gao, Jiali",study,nih_1898316,RC1
+"York, Darrin M",study,nih_1893802,R01
+"Fitzpatrick, Paul F",study,nih_1893773,P41
+"Taylor, Susan S",study,nih_1881584,P50
+"Gerlt, John A",study,nih_1883078,U54
+"Deng, Li",study,nih_6667062,R01
+"Selker, Eric U",study,nih_1863298,R37
+"Cheng, Xiaodong",study,nih_1896477,P41
+"Dunlap, Jay C",study,nih_1887802,P01
+"Mello, Craig C",study,nih_1868679,P41
+"Liu, Yi",study,nih_1875180,R01
+"Degrado, William F",study,nih_1883014,U01
+"Levitt, Michael",study,nih_1887745,R37
+"Solomon, Edward I",study,nih_1877275,P41
+"Imlay, James A",study,nih_1893753,R37
+"Gellman, Samuel H",study,nih_1897065,P41
+"Menon, Anant K",study,nih_1895501,R01
+"Markley, John L",study,nih_1858410,P50
+"Forman, Stuart A",study,nih_1902089,P01
+"Miller, Keith W",study,nih_1870433,P41
+"Ragsdale, Stephen W",study,nih_1898361,P20
+"Rosenbaum, Joel L",study,nih_1955194,R01
+"Pazour, Gregory J",study,nih_1921644,R01
+"Witman, George B",study,nih_1858017,P30
+"King, Stephen M",study,nih_1858679,R01
+"Schrock, Richard R",study,nih_1868899,R01
+"Voth, Gregory A",study,nih_1892179,P50
+"Schulten, Klaus J",study,nih_8063951,P41
+"Falke, Joseph J",study,nih_1894530,R01
+"Li, Rong",study,nih_1880714,P01
+"Rosen, Michael K",study,nih_1901068,P01
+"Parker, Roy",study,nih_1898331,R37
+"Macara, Ian G",study,nih_1858963,P30
+"Morgan, David O",study,nih_1865102,R37
+"Kirschner, Marc W",study,nih_1863369,RC4
+"Otwinowski, Zbyszek",study,nih_1893677,U54
+"Gelles, Jeff",study,nih_1858704,R37
+"Spector, David L",study,nih_1898347,P01
+"Hannon, Gregory J",study,nih_1924153,P01
+"Stillman, Bruce W",study,nih_1884018,P01
+"Singer, Robert H",study,nih_1880263,P20
+"Chanfreau, Guillaume F",study,nih_6364234,R01
+"Feigon, Juli F",study,nih_2419797,R01
+"Anderson, Karen S",study,nih_1880266,R01
+"Chazin, Walter J",study,nih_1879138,P30
+"Rapoport, Tom A",study,nih_1893645,R01
+"Schepartz, Alanna",study,nih_3095885,R01
+"Miller, Scott J",study,nih_1865283,R37
+"Walker, Graham C",study,nih_1879567,R01
+"Johnson, Eric F",study,nih_1883264,R01
+"Shoichet, Brian K",study,nih_2081368,P41
+"Gutell, Robin R",study,nih_7354530,R01
+"Severinov, Konstantin V",study,nih_3052045,U54
+"Landick, Robert",study,nih_1892987,R01
+"Muir, Tom",study,nih_1964364,RC2
+"Darst, Seth A",study,nih_1901666,P41
+"Ebright, Richard H",study,nih_1863260,R01
+"Pestova, Tatyana V",study,nih_6724242,R01
+"Gourse, Richard L",study,nih_1887786,P41
+"Rout, Michael P",study,nih_6488610,U54
+"Sullivan, William T",study,nih_1863223,R01
+"Kellogg, Douglas R",study,nih_1887617,R01
+"Bartholomew, Blaine",study,nih_1880734,R01
+"Luger, Karolin",study,nih_6409573,P01
+"Tsukiyama, Toshio",study,nih_2261585,R01
+"Peterson, Craig L",study,nih_6619701,P01
+"Fire, Andrew Z",study,nih_1863286,U54
+"Zamore, Phillip D",study,nih_1925912,R37
+"Ruvkun, Gary B",study,nih_1893782,R37
+"Bartel, David P",study,nih_6406075,P41
+"Cleveland, Don W",study,nih_8006252,RC2
+"Stearns, Tim",study,nih_1883088,R01
+"Salmon, Edward D",study,nih_1898453,R37
+"Chan, David C",study,nih_1925088,P41
+"Elledge, Stephen J",study,nih_1887701,U19
+"Kleckner, Nancy E",study,nih_8328629,R01
+"Kowalczykowski, Stephen C",study,nih_1858403,R37
+"Stubbe, Joanne",study,nih_2401605,P41
+"Walter, Peter",study,nih_1863290,P50
+"Stroud, Robert M",study,nih_1858415,P50
+"Nunnari, Jodi M",study,nih_1873581,R37
+"Puglisi, Joseph D",study,nih_1858393,R37
+"Lambowitz, Alan M",study,nih_1876836,R37
+"Villeneuve, Anne M",study,nih_1928383,R01
+"Shapiro, Lawrence",study,nih_2448085,P41
+"Harris, Michael E",study,nih_1886222,R01
+"Herschlag, Daniel",study,nih_1859098,P41
+"Case, David A",study,nih_1865596,P41
+"Eide, David J",study,nih_1884985,R01
+"Opella, Stanley J",study,nih_1881208,P01
+"Chang, Mayland F",study,nih_1871777,R01
+"Toczyski, David P",study,nih_1867652,R01
+"Zakian, Virginia A",study,nih_1863368,P01
+"Haber, James E",study,nih_1862126,R37
+"Christie, Peter J",study,nih_1880956,R21
+"Dubnau, David A",study,nih_1863237,R01
+"Frank, Joachim",study,nih_1965058,R37
+"Sali, Andrej",study,nih_1891234,U54
+"Penczek, Pawel A",study,nih_6116742,P01
+"Manley, James L",study,nih_1861866,P41
+"Johnson, Arlen W",study,nih_1898255,R01
+"Belfort, Marlene",study,nih_1887698,R37
+"Hendrickson, Wayne A",study,nih_1898405,U54
+"Montgomery, John",study,nih_1881728,R01
+"Sherman, David H",study,nih_1885647,U54
+"Spudich, James A",study,nih_1860231,P01
+"Egelman, Edward H",study,nih_1863303,P41
+"Altman, Russ B",study,nih_6620309,P01
+"Honig, Barry H",study,nih_1863346,U54
+"Cho, Wonhwa",study,nih_1883077,P41
+"Mann, Richard S",study,nih_1898240,U01
+"Prestegard, James H",study,nih_1863323,U54
+"Dervan, Peter B",study,nih_1863363,R01
+"Kravitz, Edward A",study,nih_1955021,R01
+"Belitsky, Boris R",study,nih_1887738,R01
+"Raushel, Frank M",study,nih_1894756,P01
+"Babbitt, Patricia C",study,nih_6108679,P01
+"Firtel, Richard A",study,nih_1876869,P01
+"Devreotes, Peter N",study,nih_1869025,R37
+"Loomis, William F",study,nih_1863075,P41
+"Parkinson, John S",study,nih_1964483,R37
+"Kiessling, Laura L",study,nih_2180106,P41
+"Cafiso, David S",study,nih_1868148,P01
+"Lovett, Susan T",study,nih_1883094,R01
+"Glick, Benjamin S",study,nih_1881569,P30
+"Klionsky, Daniel J",study,nih_1869355,R01
+"Bishop, Douglas K",study,nih_1898291,R01
+"Burgers, Peter M",study,nih_1883260,R01
+"Snyder, Michael P",study,nih_1862128,U54
+"Culotta, Valeria C",study,nih_1899905,R01
+"Query, Charles C",study,nih_1931229,R01
+"Tulin, Alexei V",study,nih_6746193,R01
+"Bertozzi, Carolyn R",study,nih_1922998,R37
+"Leary, Julie A",study,nih_1863214,P01
+"Ellman, Jonathan A",study,nih_1881575,R01
+"Bustamante, Carlos J",study,nih_1887823,R01
+"Green, Douglas R",study,nih_1857694,R37
+"Akey, Christopher W",study,nih_1887689,P41
+"Schultz, Peter G",study,nih_1858378,R01
+"Romesberg, Floyd E",study,nih_1970221,P41
+"Benkovic, Stephen J",study,nih_1897080,P01
+"Williamson, James R",study,nih_1887625,P50
+"Millar, David P",study,nih_1879137,P50
+"Rees, Douglas C",study,nih_1893740,P41
+"Rock, Charles O",study,nih_1863312,P30
+"Gladyshev, Vadim N",study,nih_2793451,P20
+"Karlin, Kenneth D",study,nih_1868553,R01
+"Blackburn, Ninian J",study,nih_1882554,P41
+"Tolman, William B",study,nih_1883204,R37
+"Lambright, David G",study,nih_1858025,P01
+"Hsu, Victor W",study,nih_7342015,U54
+"Xu, Yan",study,nih_2534404,P01
+"Tang, Pei",study,nih_1859365,P41
+"Weeks, Kevin M",study,nih_1860696,R01
+"Soll, Dieter G",study,nih_1880945,P41
+"Jiang, Jin",study,nih_2100210,R01
+"Forbes, Douglass J",study,nih_1898409,R01
+"Silver, Pamela A",study,nih_1865979,R37
+"Moazed, Danesh",study,nih_1940235,R01
+"Amon, Angelika B",study,nih_2091450,P30
+"Buratowski, Stephen",study,nih_1887673,R01
+"Geyer, Pamela K",study,nih_1898349,R01
+"Silverman, Richard B",study,nih_1865419,R01
+"Poulos, Thomas L",study,nih_2430585,P41
+"Fink, Gerald R",study,nih_1863308,R01
+"Madhani, Hiten D",study,nih_1900165,P41
+"Ambros, Victor",study,nih_7709177,R01
+"Perrimon, Norbert",study,nih_1963356,P01
+"Mullins, R D",study,nih_1973518,R01
+"Barber, Diane L",study,nih_1865133,R01
+"Mitchison, Timothy J",study,nih_1964871,P50
+"Weis, William I",study,nih_6320746,P41
+"Agard, David A",study,nih_1898420,P41
+"Johnson, Gary L",study,nih_1863349,U01
+"Giacomini, Kathleen M",study,nih_1863167,M01
+"Axelrod, Jeffrey D",study,nih_1930482,R37
+"Koretzky, Gary A",study,nih_6064491,P01
+"Giedroc, David P",study,nih_1898348,R01
+"Derewenda, Zygmunt S",study,nih_1880892,U54
+"Bauer, Carl E",study,nih_1880322,P41
+"Brun, Yves V",study,nih_1964524,R01
+"Helmann, John D",study,nih_1893769,R01
+"Nocera, Daniel G",study,nih_1863216,R01
+"Culver, Gloria M",study,nih_7733561,R01
+"Lis, John T",study,nih_1863266,R01
+"Schimenti, John C",study,nih_1885232,P01
+"Cerione, Richard A",study,nih_1879395,P41
+"Levine, Michael S",study,nih_1880328,P01
+"Horvitz, H R",study,nih_1964621,R01
+"Esko, Jeffrey D",study,nih_1863324,P41
+"Cantley, Lewis C",study,nih_1879476,P41
+"Wagner, Gerhard",study,nih_7780808,P41
+"Blenis, John",study,nih_1860024,R37
+"Schreiber, Stuart L",study,nih_1863190,U54
+"Dohlman, Henrik G",study,nih_1863178,P41
+"Thorner, Jeremy W",study,nih_1965221,R01
+"Voelker, Dennis R",study,nih_1887427,M01
+"Shaw, Janet M",study,nih_8073252,R01
+"Sligar, Stephen G",study,nih_1863319,U54
+"Raleigh, Daniel P",study,nih_1893646,P41
+"Sosnick, Tobin R",study,nih_1882305,P41
+"Marqusee, Susan",study,nih_1883034,P01
+"Palmer, Arthur G",study,nih_1896739,R01
+"Matthews, C R",study,nih_1887602,M01
+"Schmid, Sandra L",study,nih_1887735,R01
+"Milligan, Ronald A",study,nih_1879891,P41
+"Denu, John M",study,nih_1889808,P41
+"Low, Philip S",study,nih_1898452,R01
+"Adams, Paul D",study,nih_6646931,U01
+"Terwilliger, Thomas C",study,nih_1883241,U54
+"Eisenach, James C",study,nih_1883188,M01
+"Wells, Alan",study,nih_1887605,R56
+"Gilson, Michael K",study,nih_1893664,P01
+"Schiffer, Celia A",study,nih_1922833,P01
+"Lee, Jeannie T",study,nih_1931281,R37
+"Deshaies, Raymond J",study,nih_1893697,P41
+"Reed, Robin E",study,nih_1887712,R56
+"Hartwig, John F",study,nih_1863177,R37
+"Buchwald, Stephen L",study,nih_1863309,R37
+"Krangel, Michael S",study,nih_1883238,R37
+"Botstein, David",study,nih_1871621,P01
+"Alani, Eric E",study,nih_1883051,R01
+"Broach, James R",study,nih_1940958,P01
+"Winston, Fred M",study,nih_1863326,R37
+"Levy, Ronald",study,nih_1883268,M01
+"Olson, Arthur J",study,nih_1892568,P01
+"Wickens, Marvin P",study,nih_2419166,R01
+"Thorpe, Colin",study,nih_1883278,R01
+"Boxer, Steven G",study,nih_1883277,R37
+"Golenbock, Douglas T",study,nih_6256752,P01
+"Beutler, Bruce A",study,nih_1969455,U54
+"Arnheim, Norman",study,nih_1965098,R37
+"Tomkinson, Alan E",study,nih_1865977,P01
+"Ostap, E M",study,nih_1868703,P01
+"Pollard, Thomas D",study,nih_1876861,P01
+"Davis, Trisha N",study,nih_1864452,P41
+"Winey, Mark",study,nih_2174668,P41
+"Drubin, David G",study,nih_1887720,P41
+"Freire, Ernesto",study,nih_1870807,P01
+"Gumbiner, Barry M",study,nih_1893684,R37
+"Morken, James P",study,nih_3054829,R01
+"Noller, Harry F",study,nih_1893807,P41
+"Tinoco, Ignacio",study,nih_1863431,R01
+"Deutsch, Carol J",study,nih_1887015,R01
+"Linstedt, Adam D",study,nih_1885900,R01
+"Benovic, Jeffrey L",study,nih_1881578,P30
+"Wedegaertner, Philip B",study,nih_1912376,R56
+"Reese, Joseph C",study,nih_1928507,R01
+"Workman, Jerry L",study,nih_1895812,P41
+"Grossman, Alan D",study,nih_1859694,R37
+"Lippard, Stephen J",study,nih_1852587,P41
+"Roth, John R",study,nih_1863367,R01
+"Rothman, James E",study,nih_1863375,U54
+"Romo, Daniel",study,nih_1883061,R37
+"Osheroff, Neil",study,nih_1866550,R01
+"Kushner, Sidney R",study,nih_1859383,R56
+"Silhavy, Thomas J",study,nih_1870842,R37
+"Thompson, Elizabeth",study,nih_1876807,R37
+"Montell, Denise J",study,nih_1869149,U54
+"Peifer, Mark A",study,nih_1883195,R01
+"Cox, Michael M",study,nih_1887827,U01
+"Johnson, Carl H",study,nih_1887314,M01
+"Lohman, Timothy M",study,nih_8005790,R01
+"Newton, Alexandra C",study,nih_1860244,P01
+"Petes, Thomas D",study,nih_1883283,RC1
+"Petrini, John H",study,nih_1884558,R37
+"Mondragon, Alfonso",study,nih_1861853,R01
+"Shuman, Stewart H",study,nih_1858903,P41
+"Pan, Tao",study,nih_1883058,DP1
+"Lima, Christopher D",study,nih_1922866,P41
+"Godzik, Adam",study,nih_2105478,UM1
+"Wright, Peter E",study,nih_1898382,M01
+"Guthrie, Christine",study,nih_1955185,R01
+"Meisler, Miriam H",study,nih_1863377,RC1
+"Piper, Robert C",study,nih_1872937,R21
+"Weisman, Lois S",study,nih_1881574,R37
+"Christianson, David W",study,nih_1881747,P41
+"Cane, David E",study,nih_1897706,R01
+"Klinman, Judith P",study,nih_1891259,R01
+"Olivera, Baldomero M",study,nih_1897194,P01
+"Liu, Hung-wen",study,nih_1858404,R01
+"Burd, Christopher G",study,nih_1924132,R01
+"Gross, Carol",study,nih_1877944,R37
+"Block, Steven M",study,nih_1881391,R37
+"Spudich, John L",study,nih_1898437,U01
+"Stevens, Tom H",study,nih_7827539,R37
+"Que, Lawrence",study,nih_1898364,R37
+"Lipscomb, John D",study,nih_1896493,R01
+"Chory, Joanne",study,nih_1893704,P41
+"Jacobsen, Steven E",study,nih_1896835,R37
+"Kay, Steve A",study,nih_1876731,RC2
+"Groves, John T",study,nih_1898387,P41
+"Quail, Peter H",study,nih_1880314,R01
+"Cooperman, Barry S",study,nih_1878085,R01
+"Trost, Barry M",study,nih_1891266,R01
+"Rice, Phoebe A",study,nih_1929976,R01
+"Greenberg, Marc M",study,nih_1903163,R01
+"Symington, Lorraine S",study,nih_1861611,R01
+"Weinshilboum, Richard M",study,nih_1898436,U19
+"Stivers, James T",study,nih_1885109,R01
+"Cole, Philip A",study,nih_1928078,U54
+"Schmidt, Martin C",study,nih_1929498,P41
+"Hunt, Donald F",study,nih_1901683,U54
+"Cripps, Richard M",study,nih_6380746,R01
+"Egli, Martin",study,nih_1871080,R01
+"Metcalf, William W",study,nih_1965444,P01
+"Chaiken, Irwin M",study,nih_1864111,P01
+"Smith, Amos B",study,nih_1864007,P01
+"Tamm, Lukas K",study,nih_1964607,P01
+"Bowie, James U",study,nih_1866951,R01
+"Serhan, Charles N",study,nih_1887763,P50
+"Merrill, Alfred H",study,nih_1871016,U54
+"Kornberg, Roger D",study,nih_1883155,P41
+"Richter, Joel D",study,nih_1858018,U54
+"Keeney, Scott",study,nih_1929380,R01
+"Smith, Gerald R",study,nih_1889950,R56
+"Leof, Edward B",study,nih_1893649,R37
+"Lin, Danyu",study,nih_1964879,R01
+"Wittenberg, Curt",study,nih_1863242,P41
+"Brouwer, Kim L",study,nih_1895526,M01
+"Molander, Gary A",study,nih_1880733,P41
+"Chang, Fred",study,nih_1885108,R01
+"Khodjakov, Alexey L",study,nih_3052845,P41
+"Roberts, L J",study,nih_1965035,P01
+"Patel, Smita S",study,nih_1921962,R37
+"Baker, Timothy S",study,nih_1863325,P41
+"Johnson, Stephen L",study,nih_1870653,P01
+"Corn, Robert M",study,nih_1964439,R01
+"Goldberg, Michael L",study,nih_1964851,R01
+"Sondek, John E",study,nih_1926872,P01
+"Arndt, Karen M",study,nih_1893686,R01
+"Oldfield, Eric",study,nih_8066708,R01
+"Kolter, Roberto G",study,nih_1879843,P01
+"White, Stephen H",study,nih_1964913,U54
+"Dennis, Edward A",study,nih_1863389,U54
+"Struhl, Kevin",study,nih_1888597,R01
+"Kadonaga, James T",study,nih_1863219,R01
+"Neiman, Aaron M",study,nih_8015682,P41
+"Lew, Daniel J",study,nih_1862127,R01
+"Pellman, David S",study,nih_1885282,R37
+"Sasisekharan, Ram",study,nih_1867470,U54
+"Gierasch, Lila M",study,nih_1863364,DP1
+"Fu, Gregory C",study,nih_1881551,R37
+"Losick, Richard M",study,nih_1955188,P01
+"Wickner, William T",study,nih_1887760,P41
+"Rine, Jasper D",study,nih_1869995,P41
+"Baker, Nicholas E",study,nih_1865094,R01
+"Padgett, Richard A",study,nih_1925851,R01
+"Billiar, Timothy R",study,nih_1881187,U01
+"Tracey, Kevin J",study,nih_1868889,M01
+"Compton, Duane A",study,nih_7691221,R37
+"Lange, Kenneth L",study,nih_1883035,R01
+"Bartolomei, Marisa S",study,nih_1883128,U54
+"Xue, Ding",study,nih_2787897,R01
+"Doudna, Jennifer A",study,nih_1900251,P50
+"Belasco, Joel G",study,nih_1880327,R01
+"Marzluff, William F",study,nih_1887845,R01
+"Duronio, Robert J",study,nih_1866381,R01
+"Bretscher, Anthony P",study,nih_1865104,R01
+"Harland, Richard M",study,nih_1871261,R01
+"Gall, Joseph G",study,nih_1863322,R01
+"Hahn, Steven M",study,nih_1887728,R01
+"Krulwich, Terry A",study,nih_1883072,P50
+"Dowhan, William",study,nih_1894753,R37
+"Dent, Sharon R",study,nih_1883133,R01
+"Varshavsky, Alexander J",study,nih_1879587,R37
+"Scheraga, Harold A",study,nih_1865319,P41
+"Skolnick, Jeffrey",study,nih_1864703,P41
+"Moldawer, Lyle L",study,nih_1878566,U54
+"Hotchkiss, Richard S",study,nih_1883228,R37
+"Davis, Ronald W",study,nih_1881995,P01
+"Ayala, Alfred",study,nih_1860711,R01
+"Herndon, David N",study,nih_1889274,M01
+"Hannun, Yusuf A",study,nih_1869058,P30
+"Baehrecke, Eric H",study,nih_1862328,R56
+"Meyer, Tobias",study,nih_1860709,R21
+"Hill, Christopher P",study,nih_1860523,P41
+"Summers, Michael F",study,nih_8058334,P41
+"Harshey, Rasika M",study,nih_1866387,R01
+"Dinardo, Stephen F",study,nih_1887684,R01
+"Kolodner, Richard D",study,nih_8005932,P30
+"Jusko, William J",study,nih_1897079,R37
+"Levin, David E",study,nih_1876792,R01
+"Snell, William J",study,nih_7355008,R01
+"Haltiwanger, Robert S",study,nih_8068608,R01
+"Kirchhausen, Tomas",study,nih_1916052,U19
+"Wente, Susan R",study,nih_1866125,R37
+"Novick, Peter J",study,nih_1885391,P41
+"Sancar, Aziz",study,nih_1898413,P01
+"Barton, Jacqueline K",study,nih_3058423,R37
+"Smrcka, Alan V",study,nih_1872191,R01
+"Neubig, Richard R",study,nih_1862913,R01
+"Dessauer, Carmen W",study,nih_1896981,R01
+"Goldberg, Alfred L",study,nih_1876808,R01
+"Warshel, Arieh",study,nih_1864711,R01
+"Gerace, Larry R",study,nih_1863359,P50
+"Gelfand, Vladimir I",study,nih_1964508,P01
+"Goldman, Robert D",study,nih_1883247,R37
+"Daggett, Valerie D",study,nih_1883140,R01
+"Beal, Peter A",study,nih_1868897,R21
+"Lang, Charles H",study,nih_1864275,R37
+"Houk, Kendall N",study,nih_1860213,R01
+"Kane, Patricia M",study,nih_1901680,R01
+"Mlodzik, Marek",study,nih_6477169,R01
+"Rothstein, Rodney J",study,nih_1879132,R37
+"Anderson, Richard A",study,nih_6228781,P01
+"Gilbert, Susan P",study,nih_1893656,R37
+"Becker, Donald F",study,nih_1863424,P20
+"Cooley, Lynn",study,nih_1887713,RC1
+"Collum, David B",study,nih_1886379,R37
+"Clark, Marcus R",study,nih_6298240,M01
+"Kalderon, Daniel D",study,nih_1859377,R01
+"Young, Michael W",study,nih_1890744,R01
+"Atchison, Michael L",study,nih_1868708,R01
+"Barrick, Douglas E",study,nih_2967455,R01
+"Porter, Mary E",study,nih_1929748,P41
+"Thummel, Kenneth E",study,nih_6223756,M01
+"Rettie, Allan E",study,nih_1861158,P01
+"Kielian, Margaret",study,nih_1866114,U54
+"Cohen, Fredric S",study,nih_1871846,R01
+"Perozo, Eduardo A",study,nih_1883011,P41
+"Sengupta, Piali",study,nih_2083900,P30
+"Schedl, Tim B",study,nih_1863102,U41
+"Zarkower, David A",study,nih_1883048,R01
+"Marmorstein, Ronen",study,nih_1866999,P41
+"Parkhurst, Susan M",study,nih_1864696,R01
+"Boeke, Jef D",study,nih_1862124,U54
+"Maquat, Lynne E",study,nih_1883074,P41
+"Parker, Ian",study,nih_1883189,R37
+"Cate, Jamie H",study,nih_1861974,P01
+"Sheen, Jen",study,nih_1885103,R01
+"Staley, Jonathan P",study,nih_6483246,R21
+"Wek, Ronald C",study,nih_1860225,R01
+"Carr, Peter W",study,nih_1883015,R01
+"Grubbs, Robert H",study,nih_1898423,R01
+"Chalfie, Martin",study,nih_8020127,R01
+"Payne, Gregory S",study,nih_1940279,R01
+"Belmont, Andrew S",study,nih_1887730,P41
+"Carter, Charles W",study,nih_1858379,R01
+"Woodson, Sarah A",study,nih_1890742,R01
+"Schier, Alexander F",study,nih_1879377,U01
+"Dong, Ke",study,nih_1866124,R01
+"Benfey, Philip N",study,nih_1965001,P50
+"Hochstrasser, Mark",study,nih_1901667,R37
+"Kool, Eric T",study,nih_1879845,R01
+"Denmark, Scott E",study,nih_8066646,R01
+"Mango, Susan E",study,nih_1860974,R37
+"Disteche, Christine M",study,nih_1883210,U54
+"Greenstein, David I",study,nih_1869345,R56
+"Vajda, Sandor",study,nih_1968362,P42
+"Gautam, Narasimhan",study,nih_1869994,R01
+"Gundersen, Gregg G",study,nih_1894339,R56
+"Fuller, Margaret T",study,nih_1859360,U54
+"Bell, Stephen P",study,nih_1893710,R01
+"Chisholm, Rex L",study,nih_1898362,U01
+"West, Christopher M",study,nih_1880324,R01
+"Floyd, Scott R",study,nih_1912633,U54
+"Carman, George M",study,nih_1865995,R37
+"Ferrell, James E",study,nih_1883212,R01
+"Marians, Kenneth J",study,nih_1887805,P30
+"Cooper, John A",study,nih_6199929,R01
+"Gavis, Elizabeth R",study,nih_1927510,R01
+"Rosenzweig, Amy C",study,nih_1873519,R01
+"Jacobson, Allan S",study,nih_1900441,R37
+"Cyr, Douglas M",study,nih_2093298,R01
+"Lewis, Richard S",study,nih_1887690,R37
+"Babitzke, Paul L",study,nih_1883071,R01
+"Johnson, Reid C",study,nih_1896497,P41
+"Sekelsky, Jeff J",study,nih_1925859,R01
+"Turner, Douglas H",study,nih_1901686,R01
+"Bentley, David L",study,nih_1940498,R01
+"Schramm, Vern L",study,nih_1883235,P01
+"Davidson, Victor L",study,nih_1964353,R37
+"Macmillan, David W",study,nih_6981209,R01
+"Holzbaur, Erika L",study,nih_1887659,P01
+"Corey, David R",study,nih_1862146,P20
+"Bardwell, Lee S",study,nih_1889809,P50
+"Mackay, Trudy F",study,nih_1887694,R01
+"Barlowe, Charles K",study,nih_1893689,R37
+"Weber, Stephen G",study,nih_1893780,R21
+"Aube, Jeffrey",study,nih_1865986,P50
+"Jacobsen, Eric N",study,nih_1879853,P50
+"Cook, James A",study,nih_1887862,R01
+"Thomas, David D",comp,nih_6350682,U19
+"David, Larry L",comp,nih_1863502,P01
+"Raines, Ronald T",comp,nih_1884048,P41
+"Rana, Tariq M",comp,nih_1887016,P30
+"Wipf, Peter",comp,nih_1863176,P50
+"Olsen, Richard W",comp,nih_1889158,P01
+"Mitchell, Aaron P",comp,nih_1928457,P01
+"Hoffman, Brian M",comp,nih_1871898,R01
+"Gennis, Robert B",comp,nih_1871873,P41
+"Young, Richard A",comp,nih_1858803,P01
+"Ellisman, Mark H",comp,nih_1885119,P42
+"Jorgensen, William L",comp,nih_9574352,R01
+"Blacklow, Stephen C",comp,nih_1884664,P41
+"Eck, Michael J",comp,nih_2793446,P41
+"Harrison, Stephen C",comp,nih_1857787,U19
+"Wu, Hao",comp,nih_6375166,P41
+"Shuman, Howard A",comp,nih_1858394,U54
+"Qin, Jun",comp,nih_1864639,P01
+"Glass, Christopher K",comp,nih_1878773,U54
+"Jorgensen, Erik M",comp,nih_1882493,R37
+"Liu, Jun O",comp,nih_1955425,RC4
+"Dancis, Andrew B",comp,nih_1866408,R01
+"Cross, Timothy A",comp,nih_1902031,P01
+"Dunny, Gary M",comp,nih_1858000,R56
+"Yang, Jian",comp,nih_1903013,R01
+"Hall, Randy A",comp,nih_1885825,R01
+"Thorson, Jon S",comp,nih_2212695,P41
+"Holden, Hazel",comp,nih_1869040,R01
+"Chance, Mark R",comp,nih_2424126,P30
+"Blanchard, John S",comp,nih_1896958,R01
+"Reed, Steven I",comp,nih_1870864,P41
+"Berger, James M",comp,nih_1868056,R01
+"Cravatt, Benjamin F",comp,nih_2132494,U54
+"Hammer, Daniel A",comp,nih_2787922,P01
+"Wilson, Ian A",comp,nih_1878922,U54
+"Stevens, Raymond C",comp,nih_1901104,U54
+"Janda, Kim",comp,nih_1881411,R01
+"Lester, Henry A",comp,nih_1862714,P50
+"Salvesen, Guy S",comp,nih_1866622,U54
+"Baltimore, David",comp,nih_1863934,P01
+"Obeid, Lina M",comp,nih_1880450,P20
+"Harris, Robert A",comp,nih_1878171,P01
+"Lutsenko, Svetlana",comp,nih_1880722,P01
+"Maas, Richard L",comp,nih_1887937,P01
+"Janmey, Paul A",comp,nih_6734606,P01
+"Homanics, Gregg E",comp,nih_1884338,P01
+"Swanstrom, Ronald I",comp,nih_1870560,M01
+"Allbritton, Nancy L",comp,nih_1881727,P41
+"Dedon, Peter C",comp,nih_1886400,P01
+"Xiong, Yue",comp,nih_1894052,R01
+"Li, Song",comp,nih_8233471,U19
+"Sharp, Phillip A",comp,nih_7355826,U54
+"Brugge, Joan S",comp,nih_2211633,U54
+"Watkins, Simon C",comp,nih_6296838,P30
+"Magnuson, Terry",comp,nih_1896346,U54
+"Keller, Gordon M",comp,nih_1898054,P20
+"Cronan, John E",comp,nih_1857799,U54
+"Sweedler, Jonathan V",comp,nih_8063962,P30
+"Marnett, Lawrence J",comp,nih_1898932,P01
+"Kobilka, Brian K",comp,nih_1882273,R01
+"Wu, Dianqing",comp,nih_1883046,P01
+"Zipfel, Warren R",comp,nih_1923696,P41
+"Sternberg, Paul W",comp,nih_1871272,U41
+"Farese, Robert V",comp,nih_1935794,R01
+"Daley, George Q",comp,nih_1885134,RC4
+"Montminy, Marc R",comp,nih_1863280,P01
+"Murphy, Robert C",comp,nih_1881159,U54
+"Danishefsky, Samuel J",comp,nih_1897052,R37
+"Lauffenburger, Douglas A",comp,nih_1840203,P50
+"Huttenlocher, Anna",comp,nih_1881003,P01
+"Moore, Bradley S",comp,nih_1950624,P01
+"Weissman, Sherman M",comp,nih_1901955,P50
+"Benoist, Christophe O",comp,nih_6174570,RC2
+"Mathis, Diane J",comp,nih_6133591,RC2
+"Schon, Eric A",comp,nih_6225979,P01
+"Engelman, Alan N",comp,nih_1891684,R37
+"Elder, John H",comp,nih_1891737,P30
+"Stuehr, Dennis J",comp,nih_1883110,P01
+"Tainer, John A",comp,nih_1860233,P01
+"Sung, Patrick",comp,nih_1879397,P01
+"Clardy, Jon",comp,nih_1878823,P41
+"Bjorkman, Pamela J",comp,nih_1925564,P50
+"Dustin, Michael L",comp,nih_2414009,P01
+"Cameron, Craig E",comp,nih_1870596,U01
+"Mekalanos, John J",comp,nih_1859172,U54
+"Javitch, Jonathan A",comp,nih_1864603,U54
+"Waterman, Marian L",comp,nih_1894124,R01
+"Brunger, Axel T",comp,nih_1975934,P41
+"Goodman, Myron F",comp,nih_1860807,P01
+"Ghosh, Gourisankar",comp,nih_1872999,P01
+"Ginsberg, Mark H",comp,nih_1864076,U54
+"Ploegh, Hidde L",comp,nih_1884132,P41
+"Dixon, Jack E",comp,nih_1888209,R37
+"Salomon, Daniel R",comp,nih_1880539,M01
+"Conklin, Bruce R",comp,nih_1885090,P01
+"Johnson, Alexander D",comp,nih_1883246,R01
+"Lupski, James R",comp,nih_7353736,M01
+"Gibbs, Richard A",comp,nih_1898145,P50
+"Lee, Brendan H",comp,nih_7354258,M01
+"Kass, Robert S",comp,nih_1884668,P01
+"Ochoa, Augusto C",comp,nih_2418842,P20
+"Williams, Robert M",comp,nih_1859164,R01
+"Reed, John C",comp,nih_1866808,P01
+"Shen, Ben",comp,nih_1864110,U19
+"Altman, Amnon",comp,nih_1861603,R01
+"Sauer, Robert T",comp,nih_1861270,P41
+"Roden, Dan M",comp,nih_1881721,RC2
+"Ratain, Mark J",comp,nih_1865675,M01
+"Shuldiner, Alan R",comp,nih_1883522,M01
+"Rothman, Joel H",comp,nih_1879448,R01
+"Smith, Richard D",comp,nih_8080536,P51
+"Mchaourab, Hassane S",comp,nih_2091631,U54
+"Waterman, Michael R",comp,nih_1894180,P30
+"Sodroski, Joseph G",comp,nih_1864095,P51
+"Bushweller, John H",comp,nih_1885431,P30
+"White, Judith M",comp,nih_1864202,U54
+"Bazan, Nicolas G",comp,nih_1887989,P20
+"Toner, Mehmet",comp,nih_1885067,U01
+"Piantadosi, Claude A",comp,nih_1898073,P01
+"Perrella, Mark A",comp,nih_1915712,P01
+"Halpert, James R",comp,nih_1884566,P30
+"Bassell, Gary J",comp,nih_1881563,P30
+"Shilatifard, Ali",comp,nih_2279756,R01
+"Limper, Andrew H",comp,nih_1862828,R01
+"Nickerson, Deborah A",comp,nih_1918530,R01
+"Elston, Robert C",comp,nih_1861164,P50
+"Russell, Paul",comp,nih_1863263,P42
+"Kelly, Jeffery W",comp,nih_1893922,P01
+"Dermody, Terence S",comp,nih_8001798,R37
+"Hall, James E",comp,nih_1901724,R01
+"Burridge, Keith",comp,nih_2165137,U54
+"Koleske, Anthony J",comp,nih_1928374,R01
+"Russell, David W",comp,nih_1898342,U54
+"Handel, Tracy M",comp,nih_1864123,U01
+"Sabatini, David M",comp,nih_1902274,R37
+"Kaplan, Joshua M",comp,nih_1884510,R37
+"Desplan, Claude",comp,nih_2452885,R01
+"Hatfull, Graham F",comp,nih_1861604,R01
+"Verdin, Eric M",comp,nih_1890767,U19
+"Montell, Craig",comp,nih_1878576,DP1
+"Loew, Leslie M",comp,nih_1863307,U54
+"Bustamante, Carlos D",comp,nih_1931123,P50
+"Schultz, Richard M",comp,nih_1876102,U01
+"Lieberman, Paul M",comp,nih_1869983,P30
+"Berger, Shelley L",comp,nih_1860700,P01
+"Longaker, Michael T",comp,nih_1923715,U01
+"Shenk, Thomas E",comp,nih_1894197,P01
+"Bushman, Frederic D",comp,nih_6074450,P51
+"Sundquist, Wesley I",comp,nih_1860472,P50
+"Parrish, Colin R",comp,nih_1864167,R01
+"Clapham, David E",comp,nih_1862863,P01
+"Behringer, Richard R",comp,nih_1896260,P01
+"Piston, David W",comp,nih_1879348,U54
+"Ealick, Steven E",comp,nih_1870546,P41
+"Aggarwal, Aneel K",comp,nih_1869991,P41
+"Stormo, Gary D",comp,nih_1876857,U01
+"Subramani, Suresh",comp,nih_1893932,R37
+"Khosla, Chaitan",comp,nih_1868923,R01
+"Lieber, Michael R",comp,nih_1867499,R37
+"Mitra, Sankar",comp,nih_1863576,P01
+"Sorger, Peter K",comp,nih_1883114,U54
+"Miyamoto, Shigeki",comp,nih_1867005,R56
+"Lu, Kun P",comp,nih_1901655,R01
+"Smith, Janet L",comp,nih_1880397,R01
+"Vallee, Richard B",comp,nih_6667838,P41
+"Cooper, Jonathan A",comp,nih_1888671,R37
+"Szoka, Francis C",comp,nih_1882154,R01
+"Sokol, Sergei Y",comp,nih_1896269,R56
+"Edwards, Robert H",comp,nih_1877450,U01
+"Rapraeger, Alan C",comp,nih_1863113,R01
+"Begley, Tadhg P",comp,nih_1865994,R01
+"Carroll, Michael C",comp,nih_1872624,P01
+"Tonks, Nicholas K",comp,nih_1898919,R37
+"Skoultchi, Arthur I",comp,nih_1857785,P30
+"Clark, Edward A",comp,nih_1887731,P51
+"Condeelis, John S",comp,nih_1860713,U54
+"Caprioli, Richard M",comp,nih_6691073,P41
+"Golan, David E",comp,nih_1858811,U54
+"Liu, Ke J",comp,nih_1884925,P20
+"Aiken, Christopher R",comp,nih_1903214,P50
+"Rosen, Clifford J",comp,nih_1971652,R01
+"Kronenberg, Mitchell",comp,nih_1864103,RC4
+"Nemazee, David",comp,nih_1860712,P01
+"Capel, Blanche",comp,nih_1886130,R37
+"Sedivy, John M",comp,nih_1887597,P51
+"Cahalan, Michael D",comp,nih_1901433,P30
+"Schimmel, Paul R",comp,nih_1859109,P41
+"Maricq, Andres V",comp,nih_1862569,DP1
+"Julius, David J",comp,nih_1898335,P01
+"Prossnitz, Eric R",comp,nih_6319575,U54
+"Kennedy, Robert T",comp,nih_1955627,P41
+"Chernoff, Jonathan D",comp,nih_1882056,R01
+"Allison, David B",comp,nih_8027998,P20
+"Reh, Thomas A",comp,nih_1876206,P01
+"Emanuel, Beverly S",comp,nih_1888698,P50
+"Spiegel, Sarah",comp,nih_1868561,U19
+"Markwald, Roger R",comp,nih_1873251,P20
+"Tukey, Robert H",comp,nih_1861157,P42
+"Maxfield, Frederick R",comp,nih_1887804,P01
+"Goff, Stephen P",comp,nih_1867781,P01
+"Schlaepfer, David D",comp,nih_1901148,R01
+"Zhu, Michael X",comp,nih_1964273,P30
+"Chakravarti, Aravinda",comp,nih_1876487,R01
+"Wu, Jane Y",comp,nih_1893671,R56
+"Spearman, Paul W",comp,nih_1946121,P30
+"Fox, Paul L",comp,nih_1891116,P01
+"Fenical, William",comp,nih_1877638,P01
+"Atkinson, John P",comp,nih_1899031,U54
+"Warshaw, David M",comp,nih_1884066,P01
+"Zheng, Yi",comp,nih_1898249,P30
+"Balch, William E",comp,nih_1863435,P41
+"Smith, William",comp,nih_7714754,R01
+"Brenner, Michael B",comp,nih_1860775,P01
+"Rao, Anjana",comp,nih_1890226,RC4
+"Weissman, Irving L",comp,nih_1860178,P01
+"Wickline, Samuel A",comp,nih_1872151,U54
+"Hille, Bertil",comp,nih_1897909,U54
+"Varki, Ajit P",comp,nih_1863974,P01
+"Hedrick, Stephen M",comp,nih_1882172,P01
+"Freeze, Hudson H",comp,nih_1878564,P41
+"Nigam, Sanjay K",comp,nih_1868354,P01
+"Ibrahim, Joseph G",comp,nih_1901879,P50
+"Hampton, Randolph Y",comp,nih_1924909,R37
+"Mitchell, Beverly S",comp,nih_1891526,M01
+"Moore, Jason H",comp,nih_6356426,P20
+"Marks, Michael S",comp,nih_1867042,R01
+"Eaton, David L",comp,nih_6238739,U19
+"Burke, Wylie G",comp,nih_1880940,P50
+"Dynlacht, Brian D",comp,nih_1868925,P30
+"Pagano, Michele",comp,nih_1865288,P30
+"Freed, Jack H",comp,nih_1860716,P41
+"Griffin, Robert G",comp,nih_1863275,P41
+"Banerjee, Ruma V",comp,nih_8270374,P20
+"Dutta, Anindya",comp,nih_1859162,P01
+"Hagerman, Paul J",comp,nih_1883079,RL1
+"Sherman, Michael Y",comp,nih_1893657,P41
+"Musen, Mark A",comp,nih_1858670,U54
+"Green, Jonathan M",comp,nih_1893611,U19
+"Kappes, Dietmar J",comp,nih_1865898,R01
+"Bieniasz, Paul D",comp,nih_6691044,R37
+"Kopito, Ron R",comp,nih_1888135,R56
+"Miner, Jeffrey H",comp,nih_3102492,P30
+"Smith, Dean P",comp,nih_1883755,R01
+"Palczewski, Krzysztof",comp,nih_1956278,U01
+"Geiger, Jonathan D",comp,nih_2063694,P20
+"Garden, Gwenn A",comp,nih_1926731,P30
+"Hynes, Richard O",comp,nih_1894213,P01
+"Relman, David A",comp,nih_1969635,U54
+"Amos, Christopher I",comp,nih_1881790,U19
+"Salzberg, Steven L",comp,nih_3119619,R01
+"Pendergast, Ann M",comp,nih_1898899,R01
+"Morton, Cynthia C",comp,nih_1891230,P30
+"Gusella, James F",comp,nih_1887138,U54
+"Greene, Warner C",comp,nih_1877883,U19
+"Almasy, Laura A",comp,nih_1926481,P01
+"Loker, Eric S",comp,nih_1864189,P20
+"Sanna, Pietro P",comp,nih_1874203,P50
+"Conti, Marco",comp,nih_1896261,U54
+"Tsien, Richard W",comp,nih_1876339,R56
+"Simpkins, James W",comp,nih_1865909,P01
+"Taghert, Paul H",comp,nih_1890979,P30
+"Hunter, Lawrence E",comp,nih_2415974,U01
+"Wu, Gary D",comp,nih_1877201,UH2
+"Emerman, Michael",comp,nih_1891728,R37
+"Beauchamp, Robert D",comp,nih_1898854,P50
+"Bean, Bruce P",comp,nih_1894509,P01
+"Ehrlich, Barbara E",comp,nih_1893719,P01
+"Glazer, Peter M",comp,nih_1871634,P30
+"Stamler, Jonathan S",comp,nih_1870853,P01
+"Brown, Nancy J",comp,nih_1926097,M01
+"Erle, David J",comp,nih_1881371,P50
+"Smithgall, Thomas E",comp,nih_1863907,P50
+"Bellis, Susan L",comp,nih_6107732,P60
+"Johnson, Keith R",comp,nih_1861000,P20
+"Butcher, Eugene C",comp,nih_1860212,U19
+"Yan, Shidu",comp,nih_6598163,P50
+"Sharpe, Arlene H",comp,nih_1888832,P01
+"Cronstein, Bruce N",comp,nih_1862427,UL1
+"Hargreaves, Kenneth M",comp,nih_1898754,UL1
+"Ateshian, Gerard A",comp,nih_1978704,R01
+"Harder, David R",comp,nih_1867332,P01
+"Whittemore, Scott",comp,nih_1895692,P20
+"Ping, Peipei",comp,nih_1887344,P01
+"Taylor, Ronald K",comp,nih_3134496,U54
+"Cobb, Melanie H",comp,nih_1883055,P30
+"Vyavahare, Naren R",comp,nih_2278093,P20
+"Havran, Wendy L",comp,nih_1880550,R01
+"Axelsen, Paul H",comp,nih_6244533,P41
+"Hajnoczky, Gyorgy",comp,nih_1870096,RC2
+"Boothby, Mark R",comp,nih_1884148,R01
+"Galan, Jorge E",comp,nih_6167174,U54
+"Carlson, John R",comp,nih_1880992,R01
+"Jesteadt, Walt",comp,nih_1884576,P30
+"Traktman, Paula",comp,nih_1888968,R01
+"Cooper, Max D",comp,nih_1877831,U19
+"Swaminathan, Sankar",comp,nih_1968808,R01
+"Stark, George R",comp,nih_1876106,P01
+"Kruger, Warren D",comp,nih_1862825,R01
+"Cheroutre, Hilde",comp,nih_6721366,DP1
+"Bhatnagar, Aruni B",comp,nih_1885223,P01
+"Wilson, Mark E",comp,nih_1863117,P51
+"Karagas, Margaret R",comp,nih_1870861,P42
+"James, Judith A",comp,nih_1877799,U19
+"Smithies, Oliver",comp,nih_2412815,R01
+"Song, Wenchao",comp,nih_1870363,R01
+"Quaranta, Vito",comp,nih_1880416,U54
+"Vergara, Julio L",comp,nih_1877790,R56
+"Petering, David H",comp,nih_1876977,P30
+"Harrison, David G",comp,nih_1862941,M01
+"Delpire, Eric J",comp,nih_1857949,R01
+"Sampson, Nicole S",comp,nih_1862869,R01
+"Timchenko, Nikolai A",comp,nih_1880571,R01
+"Wotton, David",comp,nih_6530013,P01
+"Huibregtse, Jon",comp,nih_1863851,R01
+"Klein, Peter S",comp,nih_1864400,R01
+"Sinclair, David A",comp,nih_6484112,P01
+"Sachs, Frederick",comp,nih_1891111,R01
+"Li, Jian-dong",comp,nih_6404316,R01
+"Hall, John E",comp,nih_1866572,P20
+"Deshmukh, Mohanish",comp,nih_6721519,P30
+"Gilmore, Michael S",comp,nih_8139582,P01
+"Ryan, Timothy A",comp,nih_2090870,P01
+"Wenzel, Sally E",comp,nih_1864105,M01
+"Spirou, George A",comp,nih_1858485,P41
+"Schwarz, Thomas L",comp,nih_8225311,R01
+"Bier, Ethan",comp,nih_1893214,P41
+"Pfeffer, Suzanne R",comp,nih_7693793,R01
+"Jazwinski, S M",comp,nih_6466329,P01
+"Cheng, Genhong",comp,nih_2106767,U19
+"Zack, Jerome A",comp,nih_1882754,U19
+"Yang, Xiaolu",comp,nih_6106905,R01
+"Oliver, Guillermo C",comp,nih_6780371,R01
+"Au, Jessie L",comp,nih_7969598,R37
+"Stein, Gary S",comp,nih_1864839,P01
+"Stanton, Bruce A",comp,nih_1864759,P20
+"Davis, Ronald L",comp,nih_7353716,RC4
+"Capecchi, Mario R",comp,nih_1863076,P01
+"Castner, David G",comp,nih_1991213,P41
+"Goodell, Margaret",comp,nih_7354242,P50
+"Arnold, Edward",comp,nih_1868094,R37
+"Handel, Mary A",comp,nih_2427729,P01
+"Zorumski, Charles F",comp,nih_1893416,P30
+"Rifkin, Daniel B",comp,nih_1863986,P01
+"Aird, William C",comp,nih_2081464,P01
+"Nagarkatti, Prakash S",comp,nih_1884429,P01
+"Kaplan, David L",comp,nih_2059300,P41
+"Cooper, Thomas A",comp,nih_7353712,RC2
+"Bendelac, Albert S",comp,nih_1899028,P01
+"Henson, Peter M",comp,nih_1876555,P50
+"Brown, Joan H",comp,nih_1898379,P01
+"Lau, Lester F",comp,nih_1863931,R01
+"Smale, Stephen T",comp,nih_1883586,P30
+"Torchilin, Vladimir P",comp,nih_1881249,U54
+"Mivechi, Nahid F",comp,nih_1888635,R01
+"Allen, Charles N",comp,nih_7354824,R56
+"Cohen, Pinchas",comp,nih_1858536,P50
+"Devi, Lakshmi A",comp,nih_1878612,P50
+"Wood, Charles",comp,nih_1872879,P20
+"Bronner, Marianne",comp,nih_1858016,P50
+"Murry, Charles E",comp,nih_1876686,P01
+"Bennett, Anton M",comp,nih_6108509,P01
+"Rudnick, Gary W",comp,nih_1967618,P01
+"Moraes, Carlos T",comp,nih_7684565,R56
+"Liddington, Robert",comp,nih_3131262,U54
+"Paigen, Beverly J",comp,nih_1897177,P50
+"Kopan, Raphael",comp,nih_1883000,U19
+"Assoian, Richard",comp,nih_1931088,P01
+"Sieck, Gary C",comp,nih_1862946,R01
+"Zhou, Z H",comp,nih_6089740,P41
+"Jardetzky, Theodore S",comp,nih_1891687,U54
+"Jaiswal, Anil K",comp,nih_7354268,R01
+"Sullenger, Bruce A",comp,nih_1876407,U19
+"Ma, Jian-xing",comp,nih_1896752,R33
+"Peterlin, Boris M",comp,nih_1969643,U19
+"Ruby, Edward G",comp,nih_1876117,R01
+"Casadevall, Arturo",comp,nih_6139526,U54
+"Reinitz, John B",comp,nih_1876138,P50
+"Mullins, Mary C",comp,nih_1900442,R56
+"Sanders, Kenton M",comp,nih_1893935,P20
+"Zheng, Xiaofeng S",comp,nih_6189103,R01
+"Cassis, Lisa A",comp,nih_1857999,P20
+"Chen, Youhai H",comp,nih_1859116,R56
+"Hartenstein, Volker",comp,nih_1862641,P41
+"Derbyshire, Keith M",comp,nih_1893745,R56
+"Lambris, John D",comp,nih_1886589,P01
+"Stuart, Kenneth D",comp,nih_3054378,R01
+"Adelman, John P",comp,nih_1860132,R01
+"Weller, Sandra K",comp,nih_1899034,R01
+"Nerbonne, Jeanne M",comp,nih_1862965,P41
+"Jones, Katherine A",comp,nih_1898369,P01
+"Higgins, Stephen T",comp,nih_2408887,P50
+"Cooke, Nancy E",comp,nih_1861844,P30
+"Stein, Charles M",comp,nih_2201674,M01
+"Avruch, Joseph",comp,nih_1888259,R37
+"Bieker, James J",comp,nih_2432142,P60
+"Worley, Paul F",comp,nih_1866990,P50
+"Hruby, Victor J",comp,nih_1863714,P01
+"Wolgemuth, Debra J",comp,nih_1862351,P01
+"Weiss, Michael A",comp,nih_1859424,R01
+"Cleveland, John L",comp,nih_1877243,R01
+"Beachy, Philip A",comp,nih_1924755,R01
+"Yarmush, Martin L",comp,nih_1879411,UH2
+"Dean, David A",comp,nih_3169176,P01
+"Samulski, Richard J",comp,nih_1857677,P01
+"Caplan, Michael J",comp,nih_1895525,P30
+"Harmsen, Allen G",comp,nih_7355782,U54
+"Feng, Gen-sheng",comp,nih_1901669,R01
+"Wong, Wing H",comp,nih_2204334,P20
+"Opp, Mark R",comp,nih_1881847,P01
+"Strickland, Sidney",comp,nih_1859093,R01
+"Lakowicz, Joseph R",comp,nih_1883254,P41
+"Zagotta, William N",comp,nih_1905123,R01
+"Kim, Kwang-soo",comp,nih_8114735,R33
+"Greider, Carol W",comp,nih_7705133,P01
+"Bothwell, Alfred L",comp,nih_1863265,P01
